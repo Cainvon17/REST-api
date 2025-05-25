@@ -21,16 +21,19 @@ It supports full CRUD operations using in-memory data structures.
 
 ```bash
 cd icecream-api
+```
+### 2. Create and activate a virtual environment
+```bash
 # Create venv
 python -m venv venv
 
 # Activate (choose based on OS)
 venv\Scripts\activate      # Windows
 source venv/bin/activate   # macOS/Linux
-
+```
+### 3. Install dependencies
+```bash
+Copy
+Edit
 pip install -r requirements.txt
-
-python main.py
-
-Open your browser and visit:
-http://127.0.0.1:5000/icecreams
+```
