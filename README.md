@@ -11,7 +11,7 @@ Ice Cream Shop API - A lightweight REST API built with Flask and Python for mana
 ----
 ## Setup Instructions (Terminal)
 ### 1. Change to your project directory
-``bash
+```bash
 ##cd icecream-api(my project folder name)
 
 ### 2.Create and activate a virtual environment :
