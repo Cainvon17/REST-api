@@ -12,7 +12,7 @@ Ice Cream Shop API - A lightweight REST API built with Flask and Python for mana
 ## Setup Instructions (Terminal)
 ### 1. Change to your project directory
 ``bash
-cd icecream-api(my project folder name)
+##cd icecream-api(my project folder name)
 
 ### 2.Create and activate a virtual environment :
 #### Create venv
@@ -35,13 +35,13 @@ Then open your browser and go to: http://127.0.0.1:5000/icecreams
 curl http://127.0.0.1:5000/icecreams
 
 #### Add new ice cream
-Example:
+Example: 
 curl -X POST http://127.0.0.1:5000/icecreams -H "Content-Type: application/json" -d "{\"flavor\":\"Butterscotch\",\"price\":65}"
 
 #### Update an ice cream
-Example:
+Example: 
 curl -X PUT http://127.0.0.1:5000/icecreams/2 -H "Content-Type: application/json" -d "{\"flavor\":\"Mint Choco\",\"price\":70}"
 
 #### Delete an ice cream
-Example:
+Example: 
 curl -X DELETE http://127.0.0.1:5000/icecreams/3
