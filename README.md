@@ -21,7 +21,9 @@ It supports full CRUD operations using in-memory data structures.
 
 ### 1. Change to The project directory
 Open a terminal and write this
+```
 cd <path>
+```
 => !!! in place of path, paste the path of the REST-api folder which is downloaded to your system while cloning <=
 
 ### 2. Create and activate a virtual environment
